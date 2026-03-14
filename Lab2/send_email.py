@@ -90,7 +90,7 @@ if __name__ == "__main__":
     SMTP_HOST      = "smtp.gmail.com"                   # Gmail SMTP host
     SMTP_PORT      = 587                                # STARTTLS
     SENDER         = "ymohammedjoe1@gmail.com"          # Gmail address
-    PASSWORD       = os.environ.get("EMAIL_PASSWORD")   # Gmail app password
+    PASSWORD       = os.environ.get("EMAIL_PASSWORD")   # Google App Password for SMTP authentication
     RECIPIENT      = "youssef.xd777@gmail.com"          # any valid address
     SUBJECT        = "Test From My Code"
     BODY           = (
